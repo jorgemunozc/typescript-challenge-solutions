@@ -51,4 +51,4 @@ type Chainable<O = {}> = {
 }
 
 type test = Exclude<string, 'hola'>
-const hola: test = 'chao'
+    //^?
